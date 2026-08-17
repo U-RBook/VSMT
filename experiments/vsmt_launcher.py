@@ -11,10 +11,10 @@ class Launcher(TmuxLauncher):
                 checkpoints_dir='checkpoints',
                 model='vsmt',
                 CUT_mode="FastCUT",
-                he_rec='',
-                he_cls='',
-                ihc_rec='',
-                ihc_cls='',
+                he_rec='path_to_pretrained_HE_model',
+                he_cls='path_to_pretrained_HE_model',
+                ihc_rec='path_to_pretrained_IHC_model',
+                ihc_cls='path_to_pretrained_IHC_model',
 
                 n_epochs=60,  # number of epochs with the initial learning rate
                 n_epochs_decay=10,  # number of epochs to linearly decay learning rate to zero
